@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Dashboard</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+</head>
+<body>
+  <!-- navbar -->
+	  <nav class="navbar navbar-default navbar-fixed-top">
+     <a class="navbar-brand" href="http://newapp.scriptengage.com">
+        <img src="http://newapp.scriptengage.com/assets/images/logo-new.png">
+     </a>
+    
+       <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+           </button>
+            
+        </div>
+
+        <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="nav navbar-nav navbar-right">                                
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <img src="http://newapp.scriptengage.com/assets/images/account.png">My account</a>
+                  <button type="button" id="dashboard-button" class="navbar-toggle" data-toggle="collapse" data-target="#sidebar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button> 
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Super Admin</a></li>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Logout</a></li>
+                            
+                  </ul>                      
+              </li>
+            </ul>
+       </div>
+    
+</nav>
+
+  <!-- sidebar -->
+  <div class="container">
+    <div class="row content">
+    <div class="sidebar collapse navbar-collapse" id="sidebar">
+      <ul>
+        <li>
+          <div>
+            <a href="#">
+              <img class="img-circle" src="http://newapp.scriptengage.com/assets/images/profile-pictures/profile_pic.png">
+              <p>Super</p>
+            </a>
+          </div>
+        </li>
+        <li class="active">
+          <div>
+            <a href="#">
+              <img src="http://newapp.scriptengage.com/assets/images/dashboard.png">
+              <p>Dashboard</p>
+            </a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a href="#">
+              <img src="http://newapp.scriptengage.com/assets/images/my_avatar.png">
+              <p>My Avatar</p>
+            </a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a href="#">
+              <img src="http://newapp.scriptengage.com/assets/images/new_avatar.png">
+              <p>New Avatar</p>
+            </a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a href="#">
+              <img src="http://newapp.scriptengage.com/assets/images/generate_scripts.png">
+              <p>Generate Script</p>
+            </a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a href="#">
+              <img src="http://newapp.scriptengage.com/assets/images/saved_templates.png">
+              <p>Saved Templates</p>
+            </a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a href="#">
+              <img src="http://newapp.scriptengage.com/assets/images/vebinar.png">
+              <p>Webinar/VSL Generator</p>
+            </a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a href="#">
+              <img src="http://newapp.scriptengage.com/assets/images/vebinar.png">
+              <p>My Webinar/VSL</p>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  
+    <div class="col-xs-12 col-md-12">
+      <div class="centerContent">
+        <div class="col-md-4 h3Div">
+          <h3>Video training</h3>
+        </div>
+        <div class="clean"></div>
+      <div class="row btnDiv">
+              <div class="col-md-4 col-sm-8 col-xs-10">
+                <div class="btnvid"><a href="#">Walkthrough Dashboard Tutorial</a></div>
+              </div>
+              <div class="col-md-4 col-sm-8 col-xs-10">
+                <div class="btnvid"><a href="#">Generating Scripts</a></div>
+              </div>
+              <div class="col-md-4 col-sm-8 col-xs-10">
+                <div class="btnvid"><a href="#">New Avatar</a></div>
+              </div>
+        </div>
+        <br>
+      <div class="rgLink">
+        <a href="#" class="rightLink">See more videos</a>
+      </div>
+      <div id="searchDiv">
+        <div class="col-xs-8 col-sm-8 col-md-7   inpDiv">
+          <div class="row">
+            <input type="text" name="search" class=" col-xs-10 col-sm-6 col-md-8" placeholder="Search...">
+            <button type="submit" class="btn btn-sm col-xs-2 col-sm-3 btnSearch"><i class="glyphicon glyphicon-search"></i></button>
+          </div>
+        </div>
+        <button class="btn btn-primary  col-xs-3 col-md-4 pull-right">Add New Avatar</button>
+      </div>
+      <div class="clean"></div>
+      <div class="bottomUlDiv">
+        <ul class="bottomUl">
+          <li class="col-xs-12 col-md-10 fLi">
+            jhj
+            <span class="glyphicon glyphicon-triangle-top pull-right"></span>
+          </li>
+          <div>
+            <div class="row">
+              <li class="col-xs-12 col-md-10">
+                  <div class="bottomUlLiDiv">
+                    <div class="liImage">
+                      <p class="name">
+                        <img src="http://newapp.scriptengage.com/assets/images/edit.png">
+                        test
+                      </p>
+                      <p class="date">
+                        10/02/17  -  5:32 PM
+                      </p>
+                    </div>
+                    <div class="settings">
+                        <i class="glyphicon glyphicon-cog"></i>
+                    </div>
+                  </div>
+              </li>
+            </div>
+            <div class="row">
+              <li class="col-xs-12 col-md-10">
+                  <div class="bottomUlLiDiv">
+                    <div class="liImage">
+                      <p class="name">
+                        <img src="http://newapp.scriptengage.com/assets/images/edit.png">
+                        asd
+                      </p>
+                      <p class="date">
+                        10/02/17  -  5:23 PM
+                      </p>
+                    </div>
+                    <div class="settings">
+                        <i class="glyphicon glyphicon-cog"></i>
+                    </div>
+                  </div>
+              </li>
+            </div>
+            <div class="row">
+              <li class="col-xs-12 col-md-10">
+                  <div class="bottomUlLiDiv">
+                    <div class="liImage">
+                      <p class="name">
+                        <img src="http://newapp.scriptengage.com/assets/images/edit.png">
+                        test
+                      </p>
+                      <p class="date">
+                        10/02/17  -  5:19 PM
+                      </p>
+                    </div>
+                    <div class="settings">
+                        <i class="glyphicon glyphicon-cog"></i>
+                    </div>
+                  </div>
+              </li>
+            </div>
+            <div class="row">
+              <li class="col-xs-12 col-md-10">
+                  <div class="bottomUlLiDiv">
+                    <div class="liImage">
+                      <p class="name">
+                        <img src="http://newapp.scriptengage.com/assets/images/edit.png">
+                        qwe
+                      </p>
+                      <p class="date">
+                        10/02/17  -  5:08 PM
+                      </p>
+                    </div>
+                    <div class="settings">
+                        <i class="glyphicon glyphicon-cog"></i>
+                    </div>
+                  </div>
+              </li>
+            </div>
+            <div class="row">
+              <li class="col-xs-12 col-md-10">
+                  <div class="bottomUlLiDiv">
+                    <div class="liImage">
+                      <p class="name">
+                        <img src="http://newapp.scriptengage.com/assets/images/edit.png">
+                        asd
+                      </p>
+                      <p class="date">
+                        10/02/17  -  5:05 PM
+                      </p>
+                    </div>
+                    <div class="settings">
+                        <i class="glyphicon glyphicon-cog"></i>
+                    </div>
+                  </div>
+              </li>
+            </div>
+          </div>
+        </ul>
+      </div>
+
+     </div> 
+     <div class="clean"></div>
+     <footer class="navbar-fixed-bottom">
+       <div class="col-xs-1"></div>
+       <div class="col-xs-5 footdiv">
+         Script Engage | All rights reserved Copyright © 2017
+       </div>
+       <div class="col-md-6 col-xs-4 text-right footdiv">
+         <ul class="list-inline">
+           <li><a href="#">Privacy Policy</a></li>
+           <li><a href="#">Terms Of Use</a></li>
+           <li><a href="#">Disclaimer Contact</a></li>
+         </ul>
+       </div>
+
+     </footer>
+
+
+  </div>      
+</div>
+</div>
+
+
+
+</body>
+</html>
